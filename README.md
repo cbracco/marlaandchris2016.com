@@ -4,8 +4,6 @@
 
 > The source code for the wedding website of Marla Lacherza & Chris Bracco. It uses [jekyll-postcss-browserify][jekyll-postcss-browserify] as a baseline.
 
-> A boilerplate for building static websites with [Gulp][gulp], [Jekyll][jekyll], [PostCSS][postcss], [Browserify][browserify], [imagemin][imagemin], [svg-sprite][svg-sprite], and more.
-
 This project is an opinionated front-end boilerplate for developing and deploying static websites using [Jekyll][jekyll]. It includes several front-end tools that help facilitate the development process, and [Gulp][gulp] to automate common development tasks, compiling source code, watching files for changes, and deployment.
 
 - [Features](#features)
@@ -131,6 +129,7 @@ Thank you all for your hard work.
 [imagemin]: https://github.com/imagemin/imagemin
 [issac-newton-quote]: https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants
 [jekyll]: https://jekyllrb.com
+[jekyll-postcss-browserify]: https://github.com/cbracco/jekyll-postcss-browserify
 [jekyll-windows]: http://jekyllrb.com/docs/windows/#installation
 [kogakure]: https://github.com/kogakure
 [liquid]: http://liquidmarkup.org
