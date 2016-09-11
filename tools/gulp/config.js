@@ -268,7 +268,7 @@ module.exports = {
       destination: '/var/www/marlaandchris2016.com/public_html/www/',
       root: production,
       hostname: 'cbracco.me',
-      username: 'deploy',
+      username: 'chris',
       port: 415,
       incremental: true,
       progress: true,
@@ -277,7 +277,8 @@ module.exports = {
       recursive: true,
       clean: true,
       exclude: ['.DS_Store'],
-      include: []
+      include: [],
+      command: true
     }
   }
 }
