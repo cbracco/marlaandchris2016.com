@@ -1,0 +1,36 @@
+- name: "Michele Fuchs"
+  position: "Matron of Honor"
+  order: 1
+- name: "Lori Lacherza-Trainor"
+  position: "Matron of Honor"
+  order: 2
+- name: "Lauren Bracco"
+  position: "Bridesmaid"
+  order: 3
+- name: "Jessica Kruzel"
+  position: "Bridesmaid"
+  order: 4
+- name: "Annie LaForge"
+  position: "Bridesmaid"
+  order: 5
+- name: "Ilysa Mitofsky"
+  position: "Bridesmaid"
+  order: 6
+- name: "Samantha Murasko"
+  position: "Bridesmaid"
+  order: 7
+- name: "Lauren Park"
+  position: "Bridesmaid"
+  order: 8
+- name: "Jeff Petriello"
+  position: "Bridesman"
+  order: 9
+- name: "Candace Puzio"
+  position: "Bridesmaid"
+  order: 10
+- name: "Tom Puzio"
+  position: "Bridesman"
+  order: 11
+- name: "Hayley Treanor"
+  position: "Bridesmaid"
+  order: 12

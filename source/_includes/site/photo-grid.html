@@ -1,0 +1,12 @@
+<div class="photo-grid">
+  {% for item in include.photos | sort:'order' %}
+    {% capture imagePath %}/assets/images/{% endcapture %}
+    {% capture imageFileName %}{{ imagePath }}{{ item.name | replace: ' ', '-' | replace: '’', '-' | downcase }}.jpg{% endcapture %}
+    <div class="photo-grid-col">
+      <div class="photo-grid-frame">
+        <img class="photo-grid-img lazyload" data-src="{{ imageFileName }}" title="{{ item.name }}, {{ item.position }}" alt="{{ item.name }}">
+        <h3 class="photo-grid-heading">{{ item.name }}</h3>
+      </div>
+    </div>
+  {% endfor %}
+</div>

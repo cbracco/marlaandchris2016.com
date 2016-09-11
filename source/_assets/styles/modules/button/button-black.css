@@ -1,0 +1,16 @@
+/**
+ * Button: Black
+ */
+
+:root {
+  --button-black-background-color: var(--color-black);
+  --button-black-color: var(--color-white);
+}
+
+.button-black,
+.button-black:visited,
+.button-black:hover,
+.button-black:active {
+  background-color: var(--button-black-background-color);
+  color: var(--button-black-color);
+}

@@ -1,0 +1,19 @@
+/**
+ * Button: Skiplink
+ */
+
+:root {
+  --button-skiplink-z-index: var(--z-index-10);
+}
+
+.button-skiplink {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+  z-index: var(--button-skiplink-z-index);
+}
+
+.button-skiplink:active,
+.button-skiplink:focus {
+  left: 0;
+}

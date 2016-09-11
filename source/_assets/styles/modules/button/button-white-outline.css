@@ -1,0 +1,26 @@
+/**
+ * Button: White Outline
+ */
+
+:root {
+  --button-white-outline-background-color: transparent;
+  --button-white-outline-color: var(--color-white);
+  --button-white-outline-border: 2px solid var(--color-white);
+  --button-white-outline-border-radius: 2px;
+  --button-white-outline-hover-color: var(--color-black);
+  --button-white-outline-hover-background-color: var(--color-white);
+}
+
+.button-white-outline,
+.button-white-outline:visited {
+  background-color: var(--button-white-outline-background-color);
+  color: var(--button-white-outline-color);
+  border: var(--button-white-outline-border);
+  border-radius: var(--button-white-outline-border-radius);
+}
+
+.button-white-outline:hover,
+.button-white-outline:active {
+  background-color: var(--button-white-outline-hover-background-color);
+  color: var(--button-white-outline-hover-color);
+}

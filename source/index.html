@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+<div class="site-section site-section-1 billboard billboard-fixed lazyload" id="site-section-1" role="banner" data-bgset="/assets/images/site-section/small/1-bg.jpg 360w, /assets/images/site-section/medium/1-bg.jpg 768w, /assets/images/site-section/large/1-bg.jpg 1140w, /assets/images/site-section/1-bg.jpg 1440w" data-sizes="auto">
+  <div class="partymode-open js-partymode-open"><img class="partymode-open js-partymode-open" src="/assets/images/partymode-open.svg" alt=""></div>
+  <div class="wrapper text-center">
+    <div class="billboard-logo" role="banner">
+      <img src="/assets/images/logo.svg" width="640" alt="{{ site.title }}">
+    </div>
+  </div>
+</div>
+{% include site/navigation.html nav=site.data.navigation %}
+<div class="site-section site-section-2" id="site-section-2">
+  <div class="wrapper wrapper-width-md padding-top-2 md-padding-top-6 md-padding-bottom-6">
+    <div class="card">
+      <div class="site-section-header text-center">
+        <h1 class="site-section-heading"><span class="heading-decoration">&diams;</span> Our Message <span class="heading-decoration">&diams;</span></h1>
+      </div>
+      <div class="site-section-row">
+        <div class="site-section-col text-center md-text-left">
+          <img class="lazyload" data-src="/assets/images/engagement-photobooth.jpg" alt="Marla Lacherza & Chris Bracco photobooth strip">
+        </div>
+        <div class="site-section-col">
+          <p>Hey, you made it! Thanks for visiting our wedding website. Here you will find information about our wedding ceremony and reception.</p>
+          <p>As we approach the highly anticipated day, we want to let you know ahead of time how unbelievably grateful we are to have such wonderful humans like you (yes, you!) in our lives to share in this momentous occasion.</p>
+          <p>Now that most of the plans are underway, it is safe to say we’ve learned that weddings are anything but simple for everyone involved.</p>
+          <p>That’s why we encourage you to please <a href="https://goo.gl/forms/3TCHgLRszFc93gxK2" target="_blank">contact us</a> if you have any questions regarding the event. We are very excited to celebrate this special day in our lives with you.</p>
+          <p>See you on November 13<sup>th</sup> or hopefully sooner!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="site-section site-section-3 billboard lazyload" id="site-section-3" data-bgset="/assets/images/site-section/small/3-bg.jpg 360w, /assets/images/site-section/medium/3-bg.jpg 768w, /assets/images/site-section/large/3-bg.jpg 1140w, /assets/images/site-section/3-bg.jpg 1440w" data-sizes="auto">
+  <div class="wrapper wrapper-width-xl padding-top-3 padding-bottom-3 md-padding-top-5 md-padding-bottom-5 text-center">
+    <h1 class="site-section-heading"><span class="heading-decoration">&diams;</span> Wedding Details <span class="heading-decoration">&diams;</span></h1>
+    <div class="site-section-row">
+      <div class="site-section-col">
+        <div class="card card-outline">
+          <div class="card-header">
+            <h2 class="card-heading margin-0">When</h2>
+          </div>
+          <div class="card-content">
+            <p class="text-uppercase">Sunday, the thirteenth of November<br>at four o’clock in the afternoon</p>
+            <small class="text-uppercase">Ceremony at 4pm<br>Cocktail hour at 5pm<br>Reception to immediately follow</small>
+          </div>
+        </div>
+      </div>
+      <div class="site-section-col">
+        <div class="card card-outline">
+          <div class="card-header">
+            <h2 class="card-heading margin-0">Where</h2>
+          </div>
+          <div class="card-content">
+            <p class="text-uppercase">David’s Country Inn<br>314 Main Street<br>Hackettstown, New Jersey 07840</p>
+            <p class="margin-bottom-0"><a href="{{ site.directionsLink }}" class="button button-ribbon text-uppercase" target="_blank">Get Directions</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-section-row">
+      <div class="site-section-col">
+        <div class="card card-outline">
+          <div class="card-header">
+            <h2 class="card-heading margin-0">Hotel Information</h2>
+          </div>
+          <div class="card-content">
+            <p class="text-uppercase">Holiday Inn Budd Lake<br>1000 International Drive<br>Budd Lake, New Jersey 07828</p>
+            <p><small class="text-uppercase">Shuttle will be available to transport<br>guests from the hotel to the venue</small></p>
+            <p><a class="button button-ribbon text-uppercase" href="{{ site.hotelLink }}" target="_blank">Book a Room</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="site-section site-section-4 lazyload" id="site-section-4" data-bgset="/assets/images/site-section/small/4-bg.jpg 360w, /assets/images/site-section/medium/4-bg.jpg 768w, /assets/images/site-section/large/4-bg.jpg 1140w, /assets/images/site-section/4-bg.jpg 1440w">
+  <div class="wrapper wrapper-width-xl padding-top-3 md-padding-top-5 padding-bottom-3 md-padding-bottom-5 text-center">
+    <h1 class="site-section-heading margin-bottom-0"><span class="heading-decoration">&diams;</span> Meet the Crew <span class="heading-decoration">&diams;</span></h1>
+    <div class="site-section-row">
+      <div class="site-section-col">
+        <h2>Hers</h2>
+        {% include site/photo-grid.html photos=site.data.hers %}
+      </div>
+      <div class="site-section-col">
+        <h2>His</h2>
+        {% include site/photo-grid.html photos=site.data.his %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="site-section site-section-5 lazyload" id="site-section-5" data-bgset="/assets/images/site-section/small/5-bg.jpg 360w, /assets/images/site-section/medium/5-bg.jpg 768w, /assets/images/site-section/large/5-bg.jpg 1140w, /assets/images/site-section/5-bg.jpg 1440w">
+  <div class="wrapper wrapper-width-md padding-top-6 padding-bottom-6 md-padding-top-7 md-padding-bottom-7 text-center">
+    <h1 class="site-section-heading"><span class="heading-decoration">&diams;</span> RSVP <span class="heading-decoration">&diams;</span></h1>
+    <p>Please respond using the reply card included with your mailed invitation by <span class="text-uppercase">October 25, 2016</span>. We look forward to celebrating with you!</p>
+  </div>
+</div>
+
+<div class="partymode js-partymode">
+  <div class="partymode-overlay js-partymode-overlay"></div>
+  <img class="partymode-discoball js-partymode-discoball" src="/assets/images/partymode-discoball.gif" alt="">
+  <img class="partymode-dancers js-partymode-dancers" src="/assets/images/partymode-dancers.gif" alt="">
+</div>

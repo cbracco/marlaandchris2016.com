@@ -1,0 +1,70 @@
+/**
+ * Button: Ribbon
+ */
+
+:root {
+  --button-ribbon-background-color: transparent;
+  --button-ribbon-color: var(--color-white);
+  --button-ribbon-border-color: var(--color-white);
+  --button-ribbon-padding: var(--spacing-5);
+  --button-ribbon-top: -50%;
+  --button-ribbon-bottom: 50%;
+  --button-ribbon-border-width: 2px;
+  --button-ribbon-before-left: calc(var(--spacing-4) + 4);
+  --button-ribbon-before-right: 0;
+  --button-ribbon-before-transform: rotate(-135deg);
+  --button-ribbon-before-transform-origin: 0% 100%;
+  --button-ribbon-after-left: 0;
+  --button-ribbon-after-right: calc(var(--spacing-4) + 4);
+  --button-ribbon-after-transform: rotate(135deg);
+  --button-ribbon-after-transform-origin: 100% 100%;
+}
+
+.button-ribbon,
+.button-ribbon:visited {
+  position: relative;
+  border-style: solid;
+  border-color: var(--button-ribbon-border-color);
+  border-width: var(--button-ribbon-border-width) 0;
+  border-radius: 0;
+  padding-left: var(--button-ribbon-padding);
+  padding-right: var(--button-ribbon-padding);
+  background-color: var(--button-ribbon-background-color);
+  color: var(--button-ribbon-color);
+  overflow: hidden;
+}
+
+.button-ribbon:before,
+.button-ribbon:after {
+  position: absolute;
+  top: var(--button-ribbon-top);
+  bottom: var(--button-ribbon-bottom);
+  content: "";
+  display: inline-block;
+  border-style: solid;
+  border-color: var(--button-ribbon-border-color);
+  border-width: 0;
+}
+
+.button-ribbon:before {
+  border-bottom-width: var(--button-ribbon-border-width);
+  border-left-width: var(--button-ribbon-border-width);
+  transform: var(--button-ribbon-before-transform);
+  transform-origin: var(--button-ribbon-before-transform-origin);
+  left: var(--button-ribbon-before-left);
+  right: var(--button-ribbon-before-right);
+}
+
+.button-ribbon:after {
+  border-bottom-width: var(--button-ribbon-border-width);
+  border-right-width: var(--button-ribbon-border-width);
+  transform: var(--button-ribbon-after-transform);
+  transform-origin: var(--button-ribbon-after-transform-origin);
+  left: var(--button-ribbon-after-left);
+  right: var(--button-ribbon-after-right);
+}
+
+.button-ribbon:hover,
+.button-ribbon:active {
+  background-color: transparent;
+}

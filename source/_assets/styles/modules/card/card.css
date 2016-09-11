@@ -1,0 +1,23 @@
+/* ========================================================================== *\
+   CARD ($card)
+\* ========================================================================== */
+
+:root {
+  /* Default */
+  --card-padding: var(--spacing-4);
+  /* Outline */
+  --card-outline-border: 2px solid var(--color-white);
+  --card-outline-border-radius: 2px;
+}
+
+/* Card */
+.card {
+  padding: var(--card-padding);
+}
+
+/* Outline */
+.card-outline {
+  background-color: transparent;
+  border: var(--card-outline-border);
+  border-radius: var(--card-outline-border-radius);
+}

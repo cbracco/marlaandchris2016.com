@@ -1,0 +1,36 @@
+- name: "Matthew Galo"
+  position: "Best Man"
+  order: 1
+- name: "Justin Dubin"
+  position: "Groomsman"
+  order: 2
+- name: "Adam Fitzpatrick"
+  position: "Groomsman"
+  order: 3
+- name: "Craig Fuchs"
+  position: "Groomsman"
+  order: 4
+- name: "John Mandrafina"
+  position: "Groomsman"
+  order: 5
+- name: "John O’Keeffe"
+  position: "Groomsman"
+  order: 6
+- name: "Christopher Rowland"
+  position: "Groomsman"
+  order: 7
+- name: "Michael Sesso"
+  position: "Groomsman"
+  order: 8
+- name: "Fred Sesso"
+  position: "Groomsman"
+  order: 9
+- name: "Aaron Staluppi"
+  position: "Groomsman"
+  order: 10
+- name: "Robert Trainor"
+  position: "Groomsman"
+  order: 11
+- name: "Michael Trentin"
+  position: "Groomsman"
+  order: 12

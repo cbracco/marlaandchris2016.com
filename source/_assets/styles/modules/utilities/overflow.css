@@ -1,0 +1,49 @@
+/* ========================================================================== *\
+   OVERFLOW ($overflow)
+\* ========================================================================== */
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+@media screen and (--min-width-xxs) {
+  .xxs-overflow-hidden {
+    overflow: hidden;
+  }
+}
+
+@media screen and (--min-width-xs) {
+  .xs-overflow-hidden {
+    overflow: hidden;
+  }
+}
+
+@media screen and (--min-width-sm) {
+  .sm-overflow-hidden {
+    overflow: hidden;
+  }
+}
+
+@media screen and (--min-width-md) {
+  .md-overflow-hidden {
+    overflow: hidden;
+  }
+}
+
+@media screen and (--min-width-lg) {
+  .lg-overflow-hidden {
+    overflow: hidden;
+  }
+}
+
+@media screen and (--min-width-xl) {
+  .xl-overflow-hidden {
+    overflow: hidden;
+  }
+}
+
+@media screen and (--min-width-xxl) {
+  .xxl-overflow-hidden {
+    overflow: hidden;
+  }
+}

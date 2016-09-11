@@ -1,0 +1,132 @@
+/* ========================================================================== *\
+   TYPOGRAPHY ($typography)
+\* ========================================================================== */
+
+:root {
+  /* Default */
+  --type-body-font-family: var(--font-family-1);
+  --type-body-font-size: var(--font-size-6);
+  --type-body-line-height: var(--line-height-1);
+  --type-body-color: var(--color-gray-darker);
+  --type-heading-font-family: var(--font-family-2);
+  --type-heading-font-weight: 400;
+  --type-heading-line-height: var(--line-height-2);
+  --type-heading-color: var(--color-theme-1);
+  --type-heading-text-transform: uppercase;
+  --type-heading-letter-spacing: var(--letter-spacing-1);
+  --type-heading-1-font-size: var(--font-size-6);
+  --type-heading-2-font-size: var(--font-size-6);
+  --type-heading-3-font-size: var(--font-size-6);
+  --type-heading-4-font-size: var(--font-size-5);
+  --type-heading-5-font-size: var(--font-size-5);
+  --type-heading-6-font-size: var(--font-size-5);
+  --type-heading-decoration-top: -5px;
+  --type-heading-decoration-font-size: 12px;
+  --type-heading-decoration-transform: rotate(-90deg);
+  --type-anchor-color: var(--color-theme-2-dark);
+  --type-anchor-visited-color: var(--color-theme-1-light);
+  --type-hr-border: 1px solid var(--color-gray-light);
+  --sm-type-heading-1-font-size: var(--font-size-10);
+  --sm-type-heading-2-font-size: var(--font-size-8);
+  --sm-type-heading-decoration-top: -10px;
+  --sm-type-heading-decoration-font-size: 14px;
+}
+
+/**
+ * Set the baseline <body> text styles.
+ */
+
+body {
+  font-family: var(--type-body-font-family);
+  font-size: var(--type-body-font-size);
+  line-height: var(--type-body-line-height);
+  color: var(--type-body-color);
+}
+
+/**
+ * Set the baseline heading text styles.
+ */
+
+h1, .heading-1,
+h2, .heading-2,
+h3, .heading-3,
+h4, .heading-4,
+h5, .heading-5,
+h6, .heading-6 {
+  font-family: var(--type-heading-font-family);
+  font-weight: var(--type-heading-font-weight);
+  line-height: var(--type-heading-line-height);
+  color: var(--type-heading-color);
+  text-transform: var(--type-heading-text-transform);
+  letter-spacing: var(--type-heading-letter-spacing);
+}
+
+h1, .heading-1 {
+  font-size: var(--type-heading-1-font-size);
+}
+
+h2, .heading-2 {
+  font-size: var(--type-heading-2-font-size);
+}
+
+h3, .heading-3 {
+  font-size: var(--type-heading-3-font-size);
+}
+
+h4, .heading-4 {
+  font-size: var(--type-heading-4-font-size);
+  font-weight: 400;
+}
+
+h5, .heading-5 {
+  font-size: var(--type-heading-5-font-size);
+}
+
+h6, .heading-6 {
+  font-size: var(--type-heading-6-font-size);
+}
+
+.heading-decoration {
+  position: relative;
+  display: inline-block;
+  top: var(--type-heading-decoration-top);
+  transform: var(--type-heading-decoration-transform);
+  font-size: var(--type-heading-decoration-font-size);
+}
+
+@media (--min-width-sm) {
+  h1, .heading-1 {
+    font-size: var(--sm-type-heading-1-font-size);
+  }
+
+  h2, .heading-2 {
+    font-size: var(--sm-type-heading-2-font-size);
+  }
+
+  .heading-decoration {
+    top: var(--sm-type-heading-decoration-top);
+    font-size: var(--sm-type-heading-decoration-font-size);
+  }
+}
+
+/**
+ * Set the baseline <a> styles.
+ */
+
+a {
+  color: var(--type-anchor-color);
+}
+
+a:visited {
+  color: var(--type-anchor-visited-color);
+}
+
+
+hr {
+  border: 0;
+  border-top: var(--type-hr-border);
+}
+
+.lead {
+  font-size: var(--font-size-7);
+}

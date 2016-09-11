@@ -1,0 +1,48 @@
+#
+# Configuration
+#
+
+# Site
+title: "The Wedding of Marla Lacherza & Christopher Bracco &bull; November 13, 2016"
+description: > # ignore newlines in this value
+  Marla Lacherza and Christopher Bracco are to be wed on November 13, 2016. This wedding website includes information about the couple, the event, the wedding party, and more.
+author: "Chris Bracco"
+encoding: "utf-8"
+language: "en-us"
+
+# Routes
+source: ./source
+destination: ./build
+baseurl: ""
+url: "http://localhost:9999"
+root: /
+permalink: /:categories/:title/
+
+# Writing
+markdown: kramdown
+
+# Publishing
+future: true
+show_drafts: true
+limit_posts: 5
+
+# <head>
+favicons: true
+openGraph: true
+twitterCards:
+  username: jekyllrb
+
+# Analytics
+analytics:
+  id: UA-XXXXXX-XX
+  domain: https://yourdomain.com
+
+# 3rd Party
+directionsLink: https://goo.gl/maps/mTd4P5sPdFK2
+hotelLink: http://bitly.com/mc16hotel
+
+# Excludes
+#
+# Travis-CI bundles all gems in the vendor directory on its build
+# servers, which Jekyll will mistakenly read and explode on.
+exclude: [vendor]

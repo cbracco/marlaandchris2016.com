@@ -1,0 +1,16 @@
+/**
+ * Button: Theme #2
+ */
+
+:root {
+  --button-theme-2-background-color: var(--color-theme-2);
+  --button-theme-2-color: var(--color-white);
+}
+
+.button-theme-2,
+.button-theme-2:visited,
+.button-theme-2:hover,
+.button-theme-2:active {
+  background-color: var(--button-theme-2-background-color);
+  color: var(--button-theme-2-color);
+}

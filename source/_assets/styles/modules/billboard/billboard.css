@@ -1,0 +1,61 @@
+/* ========================================================================== *\
+   BILLBOARD ($billboard)
+\* ========================================================================== */
+
+:root {
+  /* Default */
+  --billboard-background-repeat: no-repeat;
+  --billboard-background-position: 50% 50%;
+  --billboard-background-size: cover;
+  --billboard-after-background-color: color(var(--color-black) alpha(33.333%));
+  --billboard-wrapper-z-index: var(--z-index-1);
+  /* Fixed */
+  --billboard-fixed-height: 50vh;
+  --billboard-fixed-logo-image-height: calc(var(--billboard-fixed-height) / 1.5);
+}
+
+/* Default */
+.billboard {
+  position: relative;
+  background-repeat: var(--billboard-background-repeat);
+  background-position: var(--billboard-background-position);
+  background-size: var(--billboard-background-size);
+}
+
+.billboard:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--billboard-after-background-color);
+}
+
+.billboard .wrapper {
+  position: relative;
+  z-index: var(--billboard-wrapper-z-index);
+}
+
+/* Fixed */
+.billboard-fixed {
+  height: var(--billboard-fixed-height);
+}
+
+.billboard-fixed .wrapper {
+  display: table;
+  height: 100%;
+}
+
+.billboard-fixed .billboard-logo {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.billboard-fixed .billboard-logo img {
+  height: var(--billboard-fixed-logo-image-height);
+}
+
+.billboard a {
+  text-decoration: none;
+}
