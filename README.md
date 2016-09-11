@@ -1,6 +1,6 @@
 # marlaandchris2016.com
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Build Status](https://travis-ci.org/cbracco/marlaandchris2016.com.svg)](https://travis-ci.org/cbracco/marlaandchris2016.com)
 
 > The source code for the wedding website of Marla Lacherza & Chris Bracco. It uses [jekyll-postcss-browserify][jekyll-postcss-browserify] as a baseline.
 
