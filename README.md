@@ -1,6 +1,8 @@
-# jekyll-postcss-browserify
+# marlaandchris2016.com
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Build Status](https://travis-ci.org/cbracco/jekyll-postcss-browserify.svg)](https://travis-ci.org/cbracco/jekyll-postcss-browserify)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
+> The source code for the wedding website of Marla Lacherza & Chris Bracco. It uses [jekyll-postcss-browserify][jekyll-postcss-browserify] as a baseline.
 
 > A boilerplate for building static websites with [Gulp][gulp], [Jekyll][jekyll], [PostCSS][postcss], [Browserify][browserify], [imagemin][imagemin], [svg-sprite][svg-sprite], and more.
 
