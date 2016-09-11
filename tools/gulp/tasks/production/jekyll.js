@@ -11,7 +11,6 @@ gulp.task('jekyll:production', function (done) {
       'exec',
       'jekyll',
       'build',
-      '-q',
       '--source=' + config.src,
       '--destination=' + config.dest,
       '--config=' + config.config
