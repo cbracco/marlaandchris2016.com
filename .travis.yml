@@ -18,7 +18,7 @@ before_install:
   - nvm install 0.12
   - npm i -g npm@2
   - openssl aes-256-cbc -K $encrypted_b38ed5bf388f_key -iv $encrypted_b38ed5bf388f_iv
-  -in deploy-key.enc -out deploy-key -d
+    -in deploy-key.enc -out deploy-key -d
 install:
   - bundle install
   - npm install
