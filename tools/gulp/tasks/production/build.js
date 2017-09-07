@@ -26,6 +26,7 @@ gulp.task('build:production', function (callback) {
       'optimize:audio',
       'optimize:html'
     ],
+    'copy:cname',
     'revision',
     'revision:collect',
     [

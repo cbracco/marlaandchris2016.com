@@ -232,6 +232,12 @@ module.exports = {
       }
     }
   },
+  copy: {
+    cname: {
+      src: 'CNAME',
+      dest: production
+    }
+  },
   revision: {
     src: {
       assets: [
