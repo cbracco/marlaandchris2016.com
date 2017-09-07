@@ -1,0 +1,19 @@
+/* The Humans Responsible & Colophon */
+/* humanstxt.org */
+
+/* TEAM */
+
+Author(s): Chris Bracco
+
+
+Site:      https://marlaandchris2016.com
+
+
+
+/* SITE */
+Last update: 2016/11/03
+
+Language:    en-us
+
+Doctype:     HTML5
+Standards:   HTML5, CSS3

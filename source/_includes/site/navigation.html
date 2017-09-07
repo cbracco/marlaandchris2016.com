@@ -1,9 +1,0 @@
-<button class="site-navigation-toggle button button-theme-1 text-uppercase js-site-navigation-toggle" data-text-swap="Close">Menu</button>
-<div class="site-navigation js-site-navigation" role="navigation">
-  <div class="site-navigation-container js-site-navigation-container">
-    {% assign navurl = page.url | remove: 'index.html' %}
-    <ul class="site-navigation-list nav text-center" data-gumshoe>
-      {% for item in include.nav %}<li class="nav-item"><a class="nav-link text-uppercase" href="{{ item.url }}" {% if item.target %} target="{{ item.target }}"{% endif %} data-scroll><span class="nav-link-text">{{ item.title }}</span></a></li>{% endfor %}
-    </ul>
-  </div>
-</div>
